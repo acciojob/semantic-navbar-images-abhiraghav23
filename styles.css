@@ -1,2 +1,29 @@
-
+        body {
+            font-family: Arial, sans-serif;
+        }
+        nav {
+            background-color: #333;
+            padding: 1em;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .images-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        img {
+            margin: 10px;
+        }
 /* Your CSS Code here. */
